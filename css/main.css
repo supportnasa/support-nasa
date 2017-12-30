@@ -1,21 +1,39 @@
-html { height: 100%; box-sizing: border-box; }
+/* global styles */
+html { height: 100%; box-sizing: border-box; background: #000000; color: #ffffff; }
 *,*:before,*:after { box-sizing: inherit; }
-body { position: relative; margin: 0; padding: 0; zoom: 1; padding-bottom: 3rem; min-height: 100%; }
+body { position: relative; margin: 0; padding: 0; zoom: 1; padding-bottom: 3rem; min-height: 100%; font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; }
+a { color: #ffffff; }
+a:hover, a:focus { color: #ababab; }
+
+
+
+/* crafted tag */
+.crafted { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; position:absolute; display:block; top:1rem; left:1rem; color: #ffffff; }
+.crafted a {color: #ffffff;}
+
 
 
 /* intro */
 .intro { width: 100%; height: 75rem; padding-top: 10rem; background: black url('../images/5052744678_56f1af1cef_o1.jpg') no-repeat center center fixed; background-size: cover; font-family: 'Exo 2', sans-serif; font-size: 3rem; text-align: center; }
-.intro h1 {  color: #ffffff; margin: 1rem auto; }
-.intro a { font-weight: 200; font-size: 1.5rem; display:inline-block; margin: 2rem auto; padding: 1rem; border: 1px solid #ffffff; text-decoration: none; color: #ffffff; }
-.intro a:hover, .intro a:focus { color: #ababab; border-color: #ababab; }
-/* intro end */
+.intro h1 {  color: #ffffff; margin: 4rem auto; }
+.intro a.btn { font-weight: 200; font-size: 1.5rem; display:inline-block; margin: 2rem auto; padding: 1rem; border: 1px solid #ffffff; text-decoration: none; color: #ffffff; }
+.intro a:hover, .intro a:focus { color: #ababab; }
+
+
 
 /* site footer */
 .site-footer { background: #000000; color: #ffffff; text-align: center; padding: 1rem; position: absolute;right: 0; bottom: 0;left: 0; }
-/* site footer end */
+
+
 
 /* mars landing */
-.mars-landing{position:relative;width:100%;height:50rem;background:#435d70;overflow:hidden}
+.mars-landing{position:relative;width:100%;height:65rem;background:#435d70;overflow:hidden}
+.mars-landing blockquote { font-family:'Vollkorn',TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; width:50%; margin:5rem auto;}
+.mars-landing blockquote p { font-size: 3rem; line-height:3rem; }
+.mars-landing blockquote cite { display:block; text-align:right; }
+@media screen and (max-width: 800px) {
+	.mars-landing blockquote p { font-size: 2rem; line-height:2rem; }
+}
 .mars-landing .mars{position:absolute;top:50%;left:50%;z-index:2}
 .mars-landing .mars .tentacle{position:absolute;top:-60px;right:-80px;z-index:1;height:70px;width:70px;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:100%;border-left:15px solid #1aae1e;-webkit-transform:rotate(-30deg);transform:rotate(-30deg);-webkit-animation:tentacle 12s cubic-bezier(0.645,0.045,0.355,1) infinite;animation:tentacle 12s cubic-bezier(0.645,0.045,0.355,1) infinite}
 .mars-landing .mars .flag{position:absolute;height:17px;width:15px;top:-57px;left:-1px;-webkit-animation:flag-pole 12s cubic-bezier(0.645,0.045,0.355,1) infinite;animation:flag-pole 12s cubic-bezier(0.645,0.045,0.355,1) infinite}
@@ -145,4 +163,4 @@ body { position: relative; margin: 0; padding: 0; zoom: 1; padding-bottom: 3rem;
 90%{width:14px}
 100%{width:14px}
 }
-/* mars landing end */
+
