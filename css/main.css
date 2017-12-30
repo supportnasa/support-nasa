@@ -20,7 +20,7 @@ a:hover, a:focus { color: #ababab; }
 .intro a:hover.btn {transition: background-color 0.5s ease;background-color:#ffffff; color: #000000;border:1px solid #000000;}
 .intro .content { font-size: 0.85rem; line-height:1.2rem; width: 75%; text-align:left; margin:0 auto; font-family:'Source Serif Pro', TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; column-count: 3;}
 .intro .content p { margin: 0 0 1rem; }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 	.intro .content {column-count: 2; }
 }
 @media screen and (max-width: 800px) {
