@@ -10,7 +10,7 @@ The DONATE button donates directly to NASA, so this site is literally about dona
 
 But it's also about paying it forward. I hope other people inspired by space and science will be inspired by these selections. I hope it will spark their imagination for invention as well.
 
-This project was inspired by [@femmebot](https:/twitter.com/femmebot)'s project [HAND-PICKED TALES from ÆSOP’S FABLES with HAND-PICKED TYPE from GOOGLE FONTS](http://femmebot.github.io/google-type/). I loved the collaboration and shared love for our craft that went into the project. I think it embodies the spirit of what NASA does each time it open sources it's latest finding. 
+This project was inspired by [@femmebot](https:/twitter.com/femmebot)'s project [HAND-PICKED TALES from ÆSOP’S FABLES with HAND-PICKED TYPE from GOOGLE FONTS](http://femmebot.github.io/google-type/). I loved the collaboration and shared love for our craft that went into the project. I think it embodies the spirit of what NASA does each time it open sources its latest finding. 
 
 This is my small way to give back. 
 
