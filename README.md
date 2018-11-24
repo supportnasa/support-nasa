@@ -1,5 +1,5 @@
 # Support NASA
-A labor of love, space inspired web projects. View the project here  https://jackreichert.github.io/support-nasa/.
+A labor of love, space inspired web projects. View the project here  https://supportnasa.org
 
 ## What IS this project?
 The goal for this project is to link two of my passions: space and web artistry.
