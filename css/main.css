@@ -1351,13 +1351,27 @@ section {
 	}
 }
 
-
-
 /* purple-space-ship */
 .purple-space-ship {
 	position: relative;
 	height: 45rem;
 	background: #562449;
+}
+
+.purple-space-ship blockquote {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 2rem;
+	line-height: 2.2rem;
+	width: 40%;
+}
+
+.purple-space-ship blockquote cite {
+	font-size: 1rem;
+	line-height: 1.1rem;
+	float: right;
 }
 
 .purple-space-ship .spaceship-center {
@@ -1380,6 +1394,7 @@ section {
 	background: #BE2E6B;
 	border-radius: 100px 100px 20px 20px;
 }
+
 .purple-space-ship .spaceship-center .window {
 	position: inherit;
 	margin-top: 35px;
@@ -1420,6 +1435,7 @@ section {
 	padding: 0 2px 0 0;
 	animation: purple-spaceship-from-to 3s infinite linear;
 }
+
 .purple-space-ship .spaceship-center .right-wing {
 	top: 50%;
 	left: 50%;
@@ -1438,10 +1454,10 @@ section {
 .purple-space-ship .spaceship-center .exhaust {
 	left: 50%;
 	top: 50%;
-	margin-left:  -62px;
+	margin-left: -62px;
 	margin-top: 40px;
 	position: inherit;
-	background:#BE2E6B;
+	background: #BE2E6B;
 	width: 70px;
 	height: 70px;
 	border-radius: 50px 10px 50px 50px;
@@ -1451,7 +1467,7 @@ section {
 .purple-space-ship .spaceship-center .tail {
 	left: 50%;
 	top: 50%;
-	margin-left:  -62px;
+	margin-left: -62px;
 	margin-top: 80px;
 	position: inherit;
 	width: 0px;
@@ -1463,11 +1479,21 @@ section {
 }
 
 @keyframes purple-spaceship-burn {
-	0% {border-width: 200px 34px 0 34px;}
-	25% {border-width: 100px 34px 0 34px;}
-	50% {border-width: 250px 34px 0 34px;}
-	75% {border-width: 150px 34px 0 34px;}
-	100% {border-width: 200px 34px 0 34px;}
+	0% {
+		border-width: 200px 34px 0 34px;
+	}
+	25% {
+		border-width: 100px 34px 0 34px;
+	}
+	50% {
+		border-width: 250px 34px 0 34px;
+	}
+	75% {
+		border-width: 150px 34px 0 34px;
+	}
+	100% {
+		border-width: 200px 34px 0 34px;
+	}
 }
 
 @keyframes purple-spaceship-from-to {
@@ -1529,8 +1555,6 @@ section {
 		margin-left: 25px;
 	}
 }
-
-
 
 /* night-sky-twinkling-stars */
 @keyframes move-twink-back {
